@@ -1,0 +1,72 @@
+/* ========= Global ==========*/
+body {
+	background-color: #00ccff;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+	padding-top: 200px; 
+	background-color: #fff;
+}
+/* ========= Header ==========*/
+
+nav.navbar.navbar-default.navbar-fixed-top {
+	background-color: #fff;
+}
+.active {
+	color: #00ccff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Coming Soon', cursive;
+}
+.page-header {
+	margin-bottom: 0;
+}
+.as {
+	margin-left: .5em;
+	color: #00ccff;
+}
+
+
+/* ========= Page content ==========*/
+
+p {font-family: 'Source Sans Pro', sans-serif; }
+#note {text-align: center;}
+
+
+/* ========= Table ==========*/
+
+th, td {
+	text-align: center;
+}
+
+/* #Video
+================================================== */
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 4.5%;
+	width: 90%;
+	height: 90%;
+}
+
+/* ========= Form ==========*/
+form {
+	padding: 0 .4em 0 .4em;
+	border: solid #ddd;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+.sign-up {
+	text-align: center;
+}
