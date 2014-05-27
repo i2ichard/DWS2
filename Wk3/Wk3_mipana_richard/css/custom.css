@@ -1,0 +1,53 @@
+/* ======== CUSTOM STYLES ======== */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.logo {
+	position: static;
+	margin: 1em 33% 0 33%;
+}
+label {
+	margin-top: .6em;
+}
+.submit_btn {
+	position: static;
+	margin: 1% 0 1.5% 0;
+}
+
+/* ======== TRANSITIONS/TRANSFORMS ======== */
+input[type="text"], textarea, select {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	font-size: 1em;
+	-webkit-transition: background-color .65s ease;
+	-moz-transition: background-color .65s ease;
+	-o-transition: background-color .65s ease;
+	-transition: background-color .65s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+	border: 2px solid rgb(0, 204, 255);
+	background-color: rgba(0, 204, 255, .4);
+	color: #545d70;
+}
+
+input:hover, textarea:hover, select:hover {
+	border: 2px sold rgb(0,204,255);
+	background-color: rgba(231, 231, 231, .4);
+}
+
+button.btn.btn-primary.btn-lg.btn-block {
+	background-color: rgba(231, 231, 231, .9);
+	color: rgba(0, 0, 1, .4);
+	border:1px solid #ddd;
+	-webkit-transition: background-color .65s ease;
+	-moz-transition: background-color .65s ease;
+	-o-transition: background-color .65s ease;
+	-transition: background-color .65s ease;
+}
+
+button.btn.btn-primary.btn-lg.btn-block:hover {
+	border: 2px sold rgb(0,204,255);
+	background-color: rgba(0, 204, 255, .7);
+	color: #fff;
+}

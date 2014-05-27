@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+	<head>
+
+		<!-- Basic Page Needs
+	  ================================================== -->
+		<meta charset="utf-8">
+		<title>Week 3 Assignment</title>
+		
+		<!-- Mobile Specific Metas
+	  ================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- CSS
+	  ================================================== -->
+	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	  	<script type="text/javascript" src="js/respond.min.js"></script>
+	  
+
+	  	<!-- Calendar
+	  ================================================== -->
+	  	<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css">
+	  	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	  	
+	  	<!-- Google Fonts
+	  ================================================== -->
+	  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<div class="container">
+
+				<!--======== Header ========-->
+			<header>
+				<div class="row">
+					<nav>
+						<div class="col-md-4 col-xs-12"><p></p></div>
+						<div class="col-md-4 col-xs-12"><img class="logo" src="images/logo_navbar.png" alt="Atrio-Logo" height="39" width="100"/></div>
+						<div class="col-md-4 col-xs-12"><p></p></div>
+					</nav>
+				</div>
+				<h2>Careers</h2>
+			</header>
+				<!--======== Form Field ========-->
+			<h6>*Required Fields</h6>
+			<div class="personal_info well">
+				<h4>Personal Information</h4>
+				<hr>
+				<form role="form">
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-1">
+							<label class="control-label" >*Title</label>
+							<select class="form-control input-sm" required="required">
+								<option> </option>	
+							 	<option>Mr.</option>
+							 	<option>Ms.</option>
+								<option>Mrs.</option>
+								<option>Miss</option>
+							</select>
+						</div>			
+						<div class="first col-xs-12 col-md-4">
+							<label class="control-label">*First Name</label>
+							<input type="text" class="form-control input-sm transition" placeholder="First" />
+						</div>
+						<div class="last col-xs-12 col-md-3">
+							<label class="control-label" >Middle Name</label>
+							<input type="text" class="form-control input-sm" placeholder="Middle (Optional)" />
+						</div>
+						<div class="last col-xs-12 col-md-4">
+							<label class="control-label" >*Last Name</label>
+							<input type="text" class="form-control input-sm" placeholder="Last" required="required" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<label class="control-label">*Birthday:<br> Month</label>
+							<select class="form-control input-sm" required="required">
+								<option> </option>
+						    	<option>January</option>
+						    	<option>February</option>
+						    	<option>March</option>
+						    	<option>April</option>
+						    	<option>May</option>
+						    	<option>June</option>
+						    	<option>July</option>
+						    	<option>August</option>
+						    	<option>September</option>
+						    	<option>October</option>
+						    	<option>November</option>
+						    	<option>December</option>
+							</select>
+						</div>
+						<div class="col-xs-4 col-sm-3 col-md-1">
+							<label class="control-label"><br>Day</label>
+							<input class="form-control input-sm" placeholder="DD" required="required"/>
+						</div>
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<label class="control-label"><br>Year</label>
+							<input class="form-control input-sm" placeholder="YYYY" required="required"/>
+						</div>
+					</div>
+				</form>
+			</div>  
+					<!--======== End personal_info div =======-->
+			
+			<div class="contact_info well">
+				<h4>Contact Information</h4>
+				<hr>
+				<form role="form">
+					<div class="row">
+						<div class="col-md-6">
+							<label class="control-label">*Street Address</label>
+							<input type="text" class="form-control input-sm" placeholder="Street Address" required="required" />
+						</div>
+						<div class="col-md-6">
+							<label class="control-label">Street Address 2</label>
+							<input type="text" class="form-control input-sm" placeholder="(Optional)" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*City</label>
+							<input type="text" class="form-control input-sm" placeholder="City" required="required" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*State</label>
+							<input type="text" class="form-control input-sm" placeholder="State" required="required" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*Zip/Postal Code</label>
+							<input type="text" class="form-control input-sm" placeholder="Zip" required="required" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*County</label>
+							<input type="text" class="form-control input-sm" placeholder="County" required="required" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*Email</label>
+							<input type="text" class="form-control input-sm" placeholder="Email" required="required" />
+						</div>
+						<div class="col-md-6">	
+							<label class="control-label">*Telephone Number</label>
+							<input type="text" class="form-control input-sm" placeholder="Phone" required="required" />
+						</div>
+					</div>
+				</form>	
+			</div>	
+					<!--======== End contact_info div =======-->
+
+			<div class="education well">
+				<h4>Education</h4>
+				<hr>
+				<form role="form">
+					<div class="row">
+						<div class="col-md-9">
+							<label class="control-label">School</label>
+							<input type="text" class="form-control input-sm" placeholder="School" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<label class="control-label">Major</label>
+							<input type="text" class="form-control input-sm" placeholder="Major" />
+						</div>
+						<div class="col-md-3">
+							<label class="control-label">Degree</label>
+							<select class="form-control input-sm">
+								<option> </option>
+								<option>Bachelors</option>
+								<option>Doctorate</option>
+								<option>High School Diploma</option>
+								<option>Masters</option>
+								<option>MBA</option>
+								<option>Other</option>
+								<option>Post Doctorate</option>
+								<option>Technical/Vocational Diploma</option>
+							</select>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-4">
+							<label class="control-label">Year</label>
+							<input type="text" class="form-control input-sm" placeholder="YYYY">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-9">
+							<label class="control-label">Additional Training</label>
+							<textarea class="form-control" rows="3"></textarea>
+						</div>
+					</div>	
+				</form>
+			</div>	
+					<!--======== End education div =======-->
+
+			<div class="experience well">
+				<h4>Work Experience</h4>
+				<hr>
+				<p>Please provide a resume in one of the following formats: jpg, jpeg, doc, docx, gif, txt, rtf, pdf</p>
+				<label class="control-label">Resume</label>
+				<input type="file" name="resume"><br />
+				<button type="submit" class="btn btn-primary btn-sm">Upload</button>
+			</div>	<!--======== End experience div =======-->
+
+			<div class="referral well">
+				<h4>Refferal</h4>
+				<hr>
+				<label>How did you hear about Atrio?</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Facebook
+				</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Twitter
+				</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3"> Linkedin
+				</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4"> Through a friend
+				</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios5" value="option5"> Internet Add
+				</label>
+				<label class="radio">
+					<input type="radio" name="optionsRadios" id="optionsRadios6" value="option6"> Other
+				</label>
+			</div>	
+					<!--======== End referral div =======-->
+
+			<div class="other_info well">
+				<h4>Other Information</h4>
+				<hr>
+
+				<!--======== Calendar =======-->
+				<div class="container">
+				    <div class="row">
+				        <div class='col-md-3'>
+				            <div class="form-group">
+				            	<label class="control-label">When can you begin?</label>
+				                <div class='input-group date' id='datetimepicker5' data-date-format="DD/MM/YYYY">
+				                    <input type='text' class="form-control" placeholder="dd/mm/yy"/>
+				                </div>
+				            </div>
+				        </div>
+				        <script type="text/javascript">
+				            $(function () {
+				                $('.datetimepicker').datetimepicker({
+				                    pickTime: false
+				                });
+				            });
+				        </script>
+				    </div>
+				</div>
+				<!--======== End Calendar =========-->
+				<form role="form">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value=""> I have previously applied for a job at Atrio.
+					 	</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value=""> I have previously been employed by Atrio.
+					 	</label>
+					</div>
+					<div class="row">
+						<div class="col-md-9">
+							<label class="control-label">What is your favorite film? Tell us why it's your favorite in detail.</label>
+							<textarea class="form-control" rows="4"></textarea>
+						</div>
+					</div>
+					<hr>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value=""> By checking this box, I verify that the information I have provided in this application is accurate and I agree that Atrio may process my personal data for hiring purposes only.
+					 	</label>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-4 col-sm-3"></div>
+						<div class="submit_btn col-md-4 col-sm-6 col-xs-12">
+							<button type="button" class="btn btn-primary btn-lg btn-block">Submit Application</button>
+						</div>
+						<div class="col-md-4 col-sm-3"></div>
+					</div>
+				</form>	
+			</div>
+					<!--======== End other_info div =======-->
+		</div>		<!--======== End container div =======-->
+	</body>
+
+</html>
