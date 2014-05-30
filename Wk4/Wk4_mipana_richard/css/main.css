@@ -1,0 +1,331 @@
+/* Global
+================================================== */
+body {
+	font-family: 'Lato', arial, sans-serif;
+	font-size: 1em;
+}
+
+.container {
+	position: relative; 
+	width: 90%; 
+	margin: 0 auto; 
+	padding: 20px 0 0 0;
+	/*border: 2px solid #0cf;*/
+}
+
+.container:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+hr {
+	width: 90%;
+}
+/* End Global
+================================================== */
+
+/* Navbar
+================================================== */
+#navbar {
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-bottom:1px solid #000;
+	width:100%;
+	height:60px;
+	margin: 0 auto;
+	background-color:#FFF;
+	color:#000;
+	z-index: 50;
+	box-shadow: 0px 0px 5px #888888;
+}
+#navbar_logo img {
+	height:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	width:auto;
+	position:absolute;
+}
+#navbar_contents {
+	float: right;
+
+}
+#navbar_contents a {
+	height: 35px;
+	border-left: 1px solid #ddd;
+	display:inline-block;
+	padding-right:20px;
+	padding-left:20px;
+	font-size:1em;
+	line-height: 35px;
+	color:#000;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+	display: inline;
+}
+/* End Navbar
+================================================== */
+
+/* Content
+================================================== */
+h1 {
+	text-align: center;
+	padding-top: 2%;
+	font-weight: 400;
+	font-style: italic;
+}
+.description_container {
+	max-width: 600px;
+	text-align: center;
+	line-height: 1.5em;
+    position: relative;
+    margin: 0 auto 0px auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.description_container a {
+	color:#0Cf;
+}
+.description_container a:hover{
+	color: #ddd;
+}
+
+.description_container p {
+	position: relative;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.project {
+	margin-bottom: 2%;
+}
+/* End Content
+================================================== */
+
+/* Videos
+================================================== */
+.video-container {
+	position: relative;
+	padding-bottom: 50%;
+	padding-top:0px;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	margin: auto;
+	top: 0; bottom: 0; left: 0; right: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-width: 853px !important;
+    max-height: 480px !important;
+    display:block;
+}
+/* End Videos
+================================================== */
+
+/* Photos
+================================================== */
+.textbox {
+	width:100%;
+	padding-top: 20px;
+	height:auto;
+	font-size: 2em;
+	font-weight: 200;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+#crew {
+	max-width: 853px;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.portrait img {
+	width:100%;
+	max-width: 250px;
+	height: auto;
+	margin: 10px 5px 10px 5px;
+}
+
+.portrait {
+	margin: 10px 10px 10px 10px;
+	padding: 1px;
+	display: inline-block;	
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(224,224,224,1);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(224,224,224,1);
+	box-shadow: 0px 0px 10px 5px rgba(224,224,224,1);
+}
+
+.portrait p {
+	text-align: center;
+}
+
+#clientLogo_container {
+	width: 80%;
+	position: relative;
+	margin:auto;
+	padding-bottom: 50px;
+	line-height: 50px;
+}
+
+#clientLogo_container img {
+	width:auto;
+	max-height: 100px;
+	max-width: 175px;
+	vertical-align: middle;
+}
+
+.clientLogo {
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	display:inline-block;
+	margin: 10px 30px 10px 30px;
+}
+
+#bts {
+	max-width: 853px;
+	padding-top: 20px;
+	margin: auto;
+}
+
+#bts img {
+	width:100%;
+	max-width: 255px;
+	height: 100%;
+}
+
+.bts_img{
+	width: 255px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+}
+/* End Photos
+================================================== */
+
+/* Form
+================================================== */
+.contact {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    font: 12px 'Lato', sans-serif;
+    color: #000;
+    text-shadow: 1px 1px 1px #FFF;
+}
+.contact h1 {
+    font: 25px 'Lato', sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #000;
+}
+.contact h1>span {
+    display: block;
+    font-size: 11px;
+}
+.contact label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.contact label>span {
+    float: left;
+    width: 80px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #000;
+}
+.contact input[type="text"], .contact input[type="email"], .contact textarea,.contact select{
+    border: 1px solid #DADADA;
+    color: #000;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font: normal 12px/12px 'Lato', sans-serif;
+}
+.contact select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 72%;
+    height: 30px;
+}
+
+.contact textarea{
+    height:100px;
+}
+
+.contact .button {
+    padding: 10px 25px 10px 25px;
+}
+
+input[type="text"], textarea, select {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	font-size: 1em;
+	-webkit-transition: background-color .65s ease;
+	-moz-transition: background-color .65s ease;
+	-o-transition: background-color .65s ease;
+	-transition: background-color .65s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+	border: 2px solid rgb(0, 204, 255);
+	background-color: rgba(0, 204, 255, .4);
+	color: #545d70;
+}
+
+input:hover, textarea:hover, select:hover {
+	border: 2px solid rgb(0,204,255);
+	background-color: rgba(231, 231, 231, .4);
+}
+
+.button {
+	background-color: rgba(231, 231, 231, .9);
+	color: rgba(0, 0, 15, .4);
+	border:1px solid #ddd;
+	-webkit-transition: background-color .65s ease;
+	-moz-transition: background-color .65s ease;
+	-o-transition: background-color .65s ease;
+	-transition: background-color .65s ease;
+}
+
+.button:hover {
+	border: 2px solid rgb(0,204,255);
+	background-color: rgba(0, 204, 255, .7);
+	color: #fff;
+}
+/* End Form
+================================================== */
+
+/* Psudo
+================================================== */
+#navbar_contents a:hover {
+	color: #0cf;
+	font-style: italic;
+}

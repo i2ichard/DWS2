@@ -1,0 +1,101 @@
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	/*body::before {
+		content: "Mobile Landscape media query (<480px) fired";
+		font-weight: bold;
+		display: block;
+		text-align: center;
+		background-color: rgba(255,0,0,0.9);
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}*/
+	.container {
+		width: 90%;
+	}
+	#navbar_logo img {
+	height:40px;
+	padding-bottom:10px;
+	width:auto;
+	position:static;
+	}
+	#navbar_contents {
+		float: right;
+		position: absolute;
+		top:30px;
+		right: 0;
+	}
+	#navbar_contents a {
+		height: 1.2em;
+		border-left: 1px solid #ddd;
+		padding-right:10px;
+		padding-left:10px;
+		font-size:.9em;
+		line-height: 1.2em;
+		color:#000;	
+	}
+	ul {
+		margin: 0;
+	}
+
+	/* Photos
+================================================== */
+	#crew {
+	max-width: 250px;
+	padding-top: 20px;
+	margin: auto 15% auto 15%;
+	}
+
+	#crew img {
+		width:100%;
+		height: auto;
+		margin: 10px 5px 10px 5px;
+	}
+
+	#clientLogo_container {
+		width: 80%;
+		position: relative;
+		margin:auto 33% auto 10%;
+		padding-bottom: 50px;
+		line-height: 50px;
+	}
+
+	#clientLogo_container img {
+		width:auto;
+		height: auto;
+		max-width: 175px;
+		vertical-align: middle;
+	}
+
+	.clientLogo {
+		text-align: center;
+		font-weight: bold;
+		font-size: 3em;
+		display:inline-block;
+		margin: 10px 30px 10px 30px;
+		
+	}
+
+
+	#bts {
+		max-width: 250px;
+		padding-top: 20px;
+		padding-left: 33%;
+		padding-right: 33%;
+		margin: auto;
+	}
+
+	#bts img {
+		width:100%;
+		max-width: 255px;
+		height: 100%;
+	}
+
+	.bts_img{
+		width: 255px;
+		margin: 10px 10px 10px 10px;
+		display: inline-block;
+	}
+}
