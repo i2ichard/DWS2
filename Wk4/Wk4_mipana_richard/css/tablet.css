@@ -1,6 +1,6 @@
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	/*body::before {
+	body::before {
 		content: "Tablet media query (<768px) fired";
 		font-weight: bold;
 		display: block;
@@ -11,7 +11,7 @@
 		left: 0;
 		right: 0;
 		z-index: 99;
-	}*/
+	}
 	.container {
 		width: 90%;
 	}

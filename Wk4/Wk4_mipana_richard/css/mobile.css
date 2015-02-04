@@ -1,6 +1,6 @@
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px){
-	/*body::before {
+	body::before {
 		content: "Mobile Landscape media query (<480px) fired";
 		font-weight: bold;
 		display: block;
@@ -11,7 +11,7 @@
 		left: 0;
 		right: 0;
 		z-index: 99;
-	}*/
+	}
 	.container {
 		width: 90%;
 	}
